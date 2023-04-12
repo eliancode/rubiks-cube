@@ -45,7 +45,18 @@ def down():
 def generatePosition():
     e=["left()","left(),left(),left()","down()","down(),down(),down()"]
     for i in range(10):
-        eval(e[random.randint(0,len(e)-1)])
+        dg=e[random.randint(0,len(e)-1)]
+        eval(dg)
+        def qg():
+            if dg == "left(),left(),left()":
+                return "left"
+            if dg=="left":
+                return "right"
+            if dg=="down(),down(),down()":
+                return "down"
+            if dg=="down()":
+                return "up"
+        #print(qg()) <-: That's the step-by-step solution to solve it...
 generatePosition()
 timeIt=0
 seconds=0
