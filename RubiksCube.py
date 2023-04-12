@@ -42,6 +42,16 @@ def down():
     scene.entities[-16].color=scene.entities[-12].color
     scene.entities[-11].color=kzb
     scene.entities[-12].color=kzt
+def generatePosition():
+    cubeList=["green","orange","blue","yellow","white","red"]
+    cubeDict={"green":4,"orange":4,"blue":4,"yellow":4,"white":4,"red":4}
+    for entPlane in range(24):
+        p=cubeList[random.randint(0,5)]
+        while not cubeDict[p]<=0:
+            exec(f"cubeDict['{p}']-=1")
+            p=cubeList[random.randint(0,5)]
+        scene.entities[-entPlane].color=eval(f"color.{p}")
+generatePosition()
 timeIt=0
 seconds=0
 def update():
