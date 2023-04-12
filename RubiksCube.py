@@ -51,7 +51,7 @@ def generatePosition():
             exec(f"cubeDict['{p}']-=1")
             p=cubeList[random.randint(0,5)]
         scene.entities[-entPlane].color=eval(f"color.{p}")
-generatePosition()
+#generatePosition()
 timeIt=0
 seconds=0
 def update():
