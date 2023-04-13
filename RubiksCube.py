@@ -36,11 +36,12 @@ def left():
     scene.entities[-15].color = scene.entities[-7].color
     scene.entities[-5].color = kxb
     scene.entities[-7].color = kxt
-    pO1 = b1.color
-    b1.color = b2.color
-    b2.color = b3.color
-    b3.color = b4.color
-    b4.color = pO1
+    pO1=b1.color
+    b1.color = b3.color
+    b3.color=b4.color
+    b4.color=b2.color
+    b2.color = pO1
+
 def down():
     kzb=scene.entities[-19].color
     kzt=scene.entities[-20].color
@@ -52,11 +53,11 @@ def down():
     scene.entities[-16].color=scene.entities[-12].color
     scene.entities[-11].color=kzb
     scene.entities[-12].color=kzt
-    pO=u1.color
+    pOg=u1.color
     u1.color=u2.color
-    u2.color=u3.color
-    u3.color=u4.color
-    u4.color=pO
+    u2.color=u4.color
+    u4.color=u3.color
+    u3.color=pOg
 def generatePosition():
     e=["left()","left(),left(),left()","down()","down(),down(),down()"]
     for i in range(10):
@@ -71,7 +72,7 @@ def generatePosition():
                 return "down"
             if dg=="down()":
                 return "up"
-        #print(qg()) #<-: That's the step-by-step solution to solve it...
+        print(qg()) #<-: That's the step-by-step solution to solve it...
 generatePosition()
 timeIt=0
 seconds=0
