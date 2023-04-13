@@ -50,7 +50,7 @@ def generatePosition():
         def qg():
             if dg == "left(),left(),left()":
                 return "left"
-            if dg=="left":
+            if dg=="left()":
                 return "right"
             if dg=="down(),down(),down()":
                 return "down"
