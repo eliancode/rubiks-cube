@@ -79,7 +79,7 @@ def generatePosition():
                 return "down"
             if dg=="down()":
                 return "up"
-        print(qg()) #<-: That's the step-by-step solution to solve it...
+        print(qg()) #<-: That's the step-by-step solution to solve it (not working:()...
 generatePosition()
 timeIt=0
 seconds=0
