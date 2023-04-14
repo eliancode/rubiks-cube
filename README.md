@@ -5,5 +5,6 @@ Turning bug fixed :)!
 
 -B-u-t-:- -a-n-o-t-h-e-r- -t-u-r-n-i-n-g- -b-u-g-.-.-.-
 
-Now up and down bug to fix :(
+-N-o-w- -u-p- -a-n-d- -d-o-w-n -b-u-g- -t-o- -f-i-x -:(
 
+#NO BUGS ANYMORE!
