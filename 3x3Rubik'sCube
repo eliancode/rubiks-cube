@@ -89,7 +89,7 @@ def reset_rotation_helper():
 
 
 win_text_entity = Text(y=.35, text='', color=color.green, origin=(0,0), scale=3)
-
+text1=Text(y=.25,text='Seconds: 0',background=True)
 def check_for_win():
     if {e.world_rotation for e in cubes} == {Vec3(0,0,0)}:
         win_text_entity.text = 'SOLVED!'
@@ -103,10 +103,18 @@ def randomize():
     for i in range(20):
         rotate_side(normal=random.choice(faces), direction=random.choice((-1,1)), speed=0)
 
+timeIt=0
+seconds=0
+def update():
+    global timeIt,seconds
+    timeIt+=1
+    if timeIt>=int(window.fps_counter.text):
+        seconds+=1
+        timeIt=0
+    text1.text="Seconds: "+str(seconds)
 randomize_button = Button(text='randomize', color=color.azure, position=(.7,-.4), on_click=randomize)
 randomize_button.fit_to_text()
 
 window.color = color._16
 EditorCamera()
-
 app.run()
