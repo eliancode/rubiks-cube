@@ -25,13 +25,14 @@ for zt in [0,1]:
 for zu in [0,1]:
     for yu in [-1.5,-0.5]:
         exec(f'Entity(model="plane",color=color.white,texture="rubix_cube",x=1.5,z=zu,y=yu,rotation_z=90)')
+
 def left():
-    kxb = scene.entities[-17].color
-    kxt = scene.entities[-19].color
+    kxb = scene.entities[-19].color
+    kxt = scene.entities[-17].color
     scene.entities[-17].color = scene.entities[-1].color
-    scene.entities[-19].color = scene.entities[-3].color
-    scene.entities[-1].color = scene.entities[-13].color
-    scene.entities[-3].color = scene.entities[-15].color
+    scene.entities[-19].color = scene.entities[-3].color#3
+    scene.entities[-1].color = scene.entities[-15].color#13
+    scene.entities[-3].color = scene.entities[-13].color#15
     scene.entities[-13].color = scene.entities[-5].color
     scene.entities[-15].color = scene.entities[-7].color
     scene.entities[-5].color = kxb
@@ -42,6 +43,10 @@ def left():
     b4.color=b2.color
     b2.color = pO1
 
+
+#scene.entities[-13].color = color.azure
+
+#scene.entities[-3].color=color.pink
 def down():
     kzb=scene.entities[-19].color
     kzt=scene.entities[-20].color
@@ -58,6 +63,8 @@ def down():
     u2.color=u4.color
     u4.color=u3.color
     u3.color=pOg
+#scene.entities[-19].color=color.pink
+#scene.entities[-7].color=color.gray
 def generatePosition():
     e=["left()","left(),left(),left()","down()","down(),down(),down()"]
     for i in range(10):
