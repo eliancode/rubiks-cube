@@ -9,4 +9,4 @@ Turning bug fixed :)!
 
 # NO BUGS ANYMORE!
 ![image](https://user-images.githubusercontent.com/70066593/232082848-cff60ff9-0e51-465b-8e5b-5230b67c1f50.png)
-![image](https://user-images.githubusercontent.com/70066593/232083667-6261808b-bed7-45b8-88e6-f2079cf8a35e.png)
+![image](https://user-images.githubusercontent.com/70066593/232085025-3113d3ae-5e1d-41ce-9ce8-fd4d564fb3f8.png)
