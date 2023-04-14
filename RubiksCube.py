@@ -48,8 +48,8 @@ def left():
 
 #scene.entities[-3].color=color.pink
 def down():
-    kzb=scene.entities[-19].color
-    kzt=scene.entities[-20].color
+    kzb=scene.entities[-20].color
+    kzt=scene.entities[-19].color
     scene.entities[-19].color=scene.entities[-23].color
     scene.entities[-20].color=scene.entities[-24].color
     scene.entities[-23].color=scene.entities[-15].color
