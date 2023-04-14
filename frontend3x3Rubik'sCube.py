@@ -132,6 +132,6 @@ def update():
     client.process_net_events()
 randomize_button = Button(text='randomize', color=color.azure, position=(.7,-.4), on_click=randomize)
 randomize_button.fit_to_text()
-#randomize()
+randomize()
 EditorCamera()
 app.run()
