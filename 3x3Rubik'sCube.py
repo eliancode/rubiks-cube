@@ -115,6 +115,5 @@ def update():
 randomize_button = Button(text='randomize', color=color.azure, position=(.7,-.4), on_click=randomize)
 randomize_button.fit_to_text()
 
-window.color = color._16
 EditorCamera()
 app.run()
