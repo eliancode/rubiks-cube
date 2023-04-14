@@ -5,5 +5,4 @@ Turning bug fixed :)!
 
 -B-u-t-:- -a-n-o-t-h-e-r- -t-u-r-n-i-n-g- -b-u-g-.-.-.-
 
-
-# No bugs anymore!:)))))))
+Now up and down bug to fix :(
