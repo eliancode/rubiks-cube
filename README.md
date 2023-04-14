@@ -8,3 +8,4 @@ Turning bug fixed :)!
 -N-o-w- -u-p- -a-n-d- -d-o-w-n -b-u-g- -t-o- -f-i-x -:(
 
 # NO BUGS ANYMORE!
+![image](https://user-images.githubusercontent.com/70066593/232082848-cff60ff9-0e51-465b-8e5b-5230b67c1f50.png)
