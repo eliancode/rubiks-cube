@@ -9,7 +9,7 @@ sendText=Text(y=-0.25)
 client=UrsinaNetworkingClient(Ip_=str(tkinter.simpledialog.askstring("Rubik's Cube","Please Enter Server Ip to connect:",parent=root)),Port_=12121)
 sendAble=False
 def send():
-    client.send_message("sent",str(str(tkinter.simpledialog.askstring("Rubik's Cube","Who do you wanna be?\nPlease Enter your name to send...",parent=root))+" took: "+str(seconds)+" seconds. He is finished!"))
+    client.send_message("sent",str(str(tkinter.simpledialog.askstring("Rubik's Cube","Who do you wanna be?\nPlease Enter your name to send...",parent=root))+" took: "+str(seconds)+" seconds. He/She is finished!"))
 @client.event
 def get(message):
     global sendText
